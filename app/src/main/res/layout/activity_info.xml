@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="25dp"
+    tools:context=".Info">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This App is Property of"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="Name: Sakik Ahamed Khan\n Mobile: +88 01751939285"/>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cc"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Copyright "/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:src="@drawable/copy"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cc"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text=" AppsHat.com"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cc"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="Name: Rashadul Hassan Rashel\nMobile: +88 01867570652\nemail: rabbi0069@gmail.com"/>
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/cross"
+        android:scaleType="centerCrop"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/backHomeId"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Back"/>
+
+
+</LinearLayout>

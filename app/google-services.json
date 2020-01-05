@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "936164390251",
+    "firebase_url": "https://amar-dokan-47cde.firebaseio.com",
+    "project_id": "amar-dokan-47cde",
+    "storage_bucket": "amar-dokan-47cde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936164390251:android:40356e0a4b2d8965d4082e",
+        "android_client_info": {
+          "package_name": "com.example.amardokan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936164390251-7lgivego5lk8lginndgstmq2psbqe1ns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amardokan",
+            "certificate_hash": "d1def2dd3cf0d2a5708584199aad821e584b69cd"
+          }
+        },
+        {
+          "client_id": "936164390251-vunce89ljfqgh249ln8fipd2bqsffufp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByrGVk-dC8e2M14MlooywDUYDgdzMNy5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936164390251-vunce89ljfqgh249ln8fipd2bqsffufp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

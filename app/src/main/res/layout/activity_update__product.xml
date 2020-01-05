@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".Update_Product">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:text="@string/string"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_byId"
+            android:inputType="text"
+            android:hint="Product Name"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:text="Search"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/preview_nameId"
+            android:hint="Product Name"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/preview_stockId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:text="Stock"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy or Sell"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buy_stockButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/add_editStockId"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="10"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/sell_stockButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="After Buy or sell New Stock Data"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/add_displayId"
+        android:layout_margin="10dp"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="00"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/add_confirmButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="Confirm Save"
+        android:layout_margin="35dp"/>
+
+
+</LinearLayout>

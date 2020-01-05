@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Add_Product">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/string"/>
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/dateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="12/12/2019"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product name: "
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/add_productNameId"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product title"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Stock: "
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/add_productStockId"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Available"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/add_ButtonId"
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
